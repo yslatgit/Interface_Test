@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea41a93e-b36c-4321-bbb0-428298c29749" name="Default" comment="" />
+    <list default="true" id="ea41a93e-b36c-4321-bbb0-428298c29749" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Locust_Framework/pressure.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/user/testLogin.py" afterPath="$PROJECT_DIR$/testCase/user/testLogin.py" />
+    </list>
     <ignored path="interfaceTest_Ysl.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,6 +23,7 @@
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1542795633782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/user" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseDB.coverage" NAME="BaseDB Coverage Results" MODIFIED="1542708287334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseData.coverage" NAME="BaseData Coverage Results" MODIFIED="1542779503577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
+    <SUITE FILE_PATH="coverage/Interface_Test_crm$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1543283178153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/user" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseEmail.coverage" NAME="BaseEmail Coverage Results" MODIFIED="1542692875241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$py_test_in_testResume_py.coverage" NAME="py.test in testResume.py Coverage Results" MODIFIED="1542850136030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
@@ -31,35 +36,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.yaml">
+      <file leaf-file-name="runAllTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runAllTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseHttp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/BaseHttp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="76" />
+            <state relative-caret-position="1026">
+              <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runAllTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runAllTest.py">
+      <file leaf-file-name="testLogin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="62" column="33" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="33" />
+            <state relative-caret-position="931">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pressure.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Locust_Framework/pressure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#14#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,20 +83,38 @@
       <file leaf-file-name="AllTestReport.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/result/AllTestReport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3173">
+            <state relative-caret-position="247">
               <caret line="13" column="87" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
-              <folding>
-                <marker date="1542854039055" expanded="true" signature="8215:8284" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseEmail.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseEmail.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="1045">
               <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interfaceTest_Ysl.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/interfaceTest_Ysl.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interfaceURL.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testData/interfaceURL.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,6 +138,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,11 +183,13 @@
         <option value="$PROJECT_DIR$/result/20181122091042/output.log" />
         <option value="$PROJECT_DIR$/result/20181122092857/output.log" />
         <option value="$PROJECT_DIR$/testCase/list/testResume.py" />
-        <option value="$PROJECT_DIR$/testCase/user/testLogin.py" />
         <option value="$PROJECT_DIR$/Base/BaseEmail.py" />
         <option value="$PROJECT_DIR$/runAllTest.py" />
         <option value="$PROJECT_DIR$/caselist.txt" />
         <option value="$PROJECT_DIR$/result/20181122103357/output.log" />
+        <option value="$PROJECT_DIR$/testCase/user/testLogin.py" />
+        <option value="$PROJECT_DIR$/Locust/pressure.py" />
+        <option value="$PROJECT_DIR$/Locust_Framework/pressure.py" />
       </list>
     </option>
   </component>
@@ -172,10 +200,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="344" />
-    <option name="y" value="75" />
-    <option name="width" value="1359" />
-    <option name="height" value="897" />
+    <option name="x" value="726" />
+    <option name="y" value="87" />
+    <option name="width" value="1090" />
+    <option name="height" value="847" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,18 +230,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interfaceTest_Ysl" />
+              <option name="myItemId" value="Interface_Test_crm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interface_Test_crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interface_Test_crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interface_Test_crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interface_Test_crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Locust_Framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +279,7 @@
       <recent name="E:\interfaceTest_Ysl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runAllTest">
+  <component name="RunManager" selected="Python.testLogin">
     <configuration default="false" name="BaseDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -542,9 +594,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.runAllTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in testResume.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testLogin" />
+        <item index="0" class="java.lang.String" itemvalue="Python.testLogin" />
+        <item index="1" class="java.lang.String" itemvalue="Python.runAllTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in testResume.py" />
         <item index="3" class="java.lang.String" itemvalue="Python.BaseData" />
         <item index="4" class="java.lang.String" itemvalue="Python.BaseDB" />
       </list>
@@ -596,27 +648,27 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="344" y="75" width="1359" height="897" extended-state="0" />
-    <editor active="false" />
+    <frame x="726" y="87" width="1090" height="847" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22247884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22135922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30514097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2627451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2717087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -667,9 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/result/20181120112443/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181120113049/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181120113216/output.log" />
     <entry file="file://D:/Python3/lib/smtplib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1035">
@@ -685,13 +734,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result/20181120113245/output.log" />
-    <entry file="file://$USER_HOME$/Desktop/interfaceTest/.idea/interfaceTest.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/interfaceTest/.idea/interfaceTest.iml" />
     <entry file="file://$PROJECT_DIR$/testData/readData.py" />
     <entry file="file://$PROJECT_DIR$/Base/BaseDB.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -716,21 +759,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result/20181121171834/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181121172752/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181121174406/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/20181121174406/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181121172150/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181121173005/output.log" />
     <entry file="file://$PROJECT_DIR$/test.py">
@@ -744,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,82 +785,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result/20181121182409/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181121175800/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/20181121175800/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181121182748/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181121183204/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181121181744/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/20181121181744/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181121183541/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181121183648/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/20181121184505/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="95" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/20181122085924/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/20181122090408/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/20181122091042/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testData/interfaceURL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/20181121183648/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/20181121184505/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/20181122085924/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/20181122090408/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/20181122091042/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181122092857/output.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,39 +810,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Base/BaseHttp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="38">
           <caret line="5" column="76" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="76" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result/AllTestReport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3173">
+        <state relative-caret-position="247">
           <caret line="13" column="87" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
-          <folding>
-            <marker date="1542854039055" expanded="true" signature="8215:8284" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -887,21 +847,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testData/interfaceURL.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/interfaceTest_Ysl.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/runAllTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="33" />
+        <state relative-caret-position="1026">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
+    <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        <state relative-caret-position="931">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3/lib/site-packages/locust/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust_Framework/pressure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

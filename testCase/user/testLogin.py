@@ -54,6 +54,7 @@ class Login(unittest.TestCase):
         self.logger.info("请求方法为 " + self.method)
         #请求
         self.result = self.req.get().text
+        #print(self.req.get().url)
 
     def tearDown(self):
         self.req = None
