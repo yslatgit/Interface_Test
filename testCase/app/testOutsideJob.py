@@ -15,7 +15,7 @@ data = GetData(data_path,'outsideJob').get_data()
 url = GetUrl(url_path,'outsideJob').get_url()
 
 @paramunittest.parametrized(*data)
-class Login(unittest.TestCase):
+class OutsideJob(unittest.TestCase):
     def setParameters(self,case_name,method,appkey,jobID,version,msg):
         self.case_name = str(case_name)
         self.method = str(method)
@@ -37,7 +37,7 @@ class Login(unittest.TestCase):
         self.logger.info("*"*50)
         self.logger.info(self.case_name + "测试")
 
-    def testLogin(self):
+    def testoutsidejob(self):
         #拼接完整的请求接口
         self.req.set_url(self.url)
         #设置header

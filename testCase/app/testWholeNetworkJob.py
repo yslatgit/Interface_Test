@@ -16,7 +16,7 @@ data = GetData(data_path,'wholeNetworkJob').get_data()
 url = GetUrl(url_path,'wholeNetworkJob').get_url()
 
 @paramunittest.parametrized(*data)
-class Login(unittest.TestCase):
+class WholeNetworkJob(unittest.TestCase):
     def setParameters(self,case_name,method,text,benefitTag,education,salaryRabge,cityCode,jobFunc,sortType,page,size,version,msg):
         self.case_name = str(case_name)
         self.method = str(method)
@@ -45,7 +45,7 @@ class Login(unittest.TestCase):
         self.logger.info("*"*50)
         self.logger.info(self.case_name + "测试")
 
-    def testLogin(self):
+    def testwholenetworkjob(self):
         #拼接完整的请求接口
         self.req.set_url(self.url)
         # #设置headers
