@@ -1,2 +1,5 @@
 #user/testLogin
 list/testResume
+app/testOutsideJob
+app/testWholeNetworkJob
+app/testWholeHotJob

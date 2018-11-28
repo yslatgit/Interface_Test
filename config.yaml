@@ -2,6 +2,7 @@ HTTP:
    scheme : http
    baseurl_list : crm.mofanghr.com
    baseurl_login : account.mofanghr.com
+   baseurl_app: mobile-application.mofanghr.com
    port: 8080
    timeout: 3
 EMAIL:

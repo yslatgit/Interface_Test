@@ -1,7 +1,6 @@
 import os
 import unittest
 import paramunittest
-from bs4 import BeautifulSoup
 from Base.BaseLog import MyLog
 from Base.BaseHttp import Http
 from Base.BaseData import GetUrl,GetData
@@ -12,27 +11,25 @@ PATH = lambda p: os.path.abspath(
 url_path = PATH("../../testData/interfaceURL.xml")
 data_path = PATH("../../testData/userCase.xlsx")
 
-login_data = GetData(data_path,'login_crm').get_data()
-login_url = GetUrl(url_path,'login_crm').get_url()
+data = GetData(data_path,'outsideJob').get_data()
+url = GetUrl(url_path,'outsideJob').get_url()
 
-@paramunittest.parametrized(*login_data)
+@paramunittest.parametrized(*data)
 class Login(unittest.TestCase):
-    def setParameters(self,case_name,method,cookie,account,password,action,check,msg):
+    def setParameters(self,case_name,method,appkey,jobID,version,msg):
         self.case_name = str(case_name)
         self.method = str(method)
-        self.cookie = str(cookie)
-        self.account = str(account)
-        self.password = str(password).split('.')[0]
-        self.action = action
-        self.check = str(check)
+        self.appkey = str(appkey)
+        self.jobID = str(jobID)
+        self.version = str(version)
         self.msg = str(msg)
 
     def description(self):
         return self.case_name
 
     def setUp(self):
-        self.req = Http("login")
-        self.url = login_url
+        self.req = Http("app")
+        self.url = url
         self.result = None
         self.log = MyLog.get_log()
         self.logger = self.log.get_logger()
@@ -44,15 +41,15 @@ class Login(unittest.TestCase):
         #拼接完整的请求接口
         self.req.set_url(self.url)
         #设置header
-        header = {"cookie":self.cookie}
+        header = {"cookie":""}
         self.req.set_headers(header)
         #设置params
-        param = {"account":self.account,"password":self.password,"action":self.action}
+        param = {'params':'{"appkey":"%s","jobID":"%s"}'%(self.appkey,self.jobID),'version':self.version}
         self.req.set_params(param)
         #打印发送请求的方法
         self.logger.info("请求方法为 " + self.method)
         #请求
-        self.result = self.req.get().text
+        self.result = self.req.get()
         #print(self.req.get().url)
 
     def tearDown(self):
@@ -62,11 +59,8 @@ class Login(unittest.TestCase):
 
     def checkResult(self):
         try:
-            #检查返回时网页的方法
-            soup = BeautifulSoup(self.result, 'lxml')
-            #找网页的title
-            title = soup.find("title")
-            self.assertIn(self.check,title)
+            self.result = self.result.json()
+            self.assertEqual(self.result["code"],200)
             return "Pass" + "---->" + self.msg
         except Exception as ex:
             self.logger.error(str(ex))

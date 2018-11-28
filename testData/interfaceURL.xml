@@ -16,4 +16,20 @@
         <!--<module></module>-->
         <action>login.action</action>
     </url>
+    <url name="wholeNetworkJob">
+        <group>member</group>
+        <module>wholeNetworkJob</module>
+        <action>search.json</action>
+    </url>
+    <url name="outsideJob">
+        <group>member</group>
+        <module>outsideJob</module>
+        <action>search.json</action>
+    </url>
+    <url name="wholehotJob">
+        <group>member</group>
+        <module>wholeNetworkJob</module>
+        <module2>hotJob</module2>
+        <action>Search.json</action>
+    </url>
 </interface>

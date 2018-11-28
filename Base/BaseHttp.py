@@ -11,12 +11,7 @@ class Http:
     def __init__(self,login):
         global scheme,host,port,timeout
         scheme = config_http['scheme']
-
-        if login == "login":
-            host = config_http['baseurl_login']
-        elif login == "list":
-            host = config_http['baseurl_list']
-
+        host = self.get_host(login)
         port = config_http['port']
         timeout = config_http['timeout']
         self.log = MyLog.get_log()
@@ -27,6 +22,18 @@ class Http:
         self.url = None
         self.files = {}
         self.state = 0
+
+    def get_host(self,login):
+        if login == "login":
+            host = config_http['baseurl_login']
+            return host
+        elif login == "list":
+            host = config_http['baseurl_list']
+            return host
+        elif login == "app":
+            host = config_http['baseurl_app']
+            return host
+
 
     def set_url(self,url):
         self.url = scheme + "://" + host + url
@@ -75,5 +82,6 @@ class Http:
             return None
 
 if __name__ == '__main__':
-    http_request = Http()
+    http_request = Http("app")
+    # print(http_request)
     http_request.set_url("ysl")
