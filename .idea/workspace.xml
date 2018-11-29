@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea41a93e-b36c-4321-bbb0-428298c29749" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Base/BaseFunc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testData/userCase.xlsx" afterPath="$PROJECT_DIR$/testData/userCase.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseLog.py" afterPath="$PROJECT_DIR$/Base/BaseLog.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/app/testOutsideJob.py" afterPath="$PROJECT_DIR$/testCase/app/testOutsideJob.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/app/testWholeHotJob.py" afterPath="$PROJECT_DIR$/testCase/app/testWholeHotJob.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py" afterPath="$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py" />
@@ -20,10 +24,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Interface_Test_crm$BaseHttp.coverage" NAME="BaseHttp Coverage Results" MODIFIED="1543385957992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$runAllTest.coverage" NAME="runAllTest Coverage Results" MODIFIED="1542854037152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testWholeHotJob_py.coverage" NAME="py.test in testWholeHotJob.py Coverage Results" MODIFIED="1543474144756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$readConfig.coverage" NAME="readConfig Coverage Results" MODIFIED="1542675494335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseLog.coverage" NAME="BaseLog Coverage Results" MODIFIED="1542676182553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
-    <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testOutsideJob_py.coverage" NAME="py.test in testOutsideJob.py Coverage Results" MODIFIED="1543392170009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testWholeNetworkJob_py.coverage" NAME="py.test in testWholeNetworkJob.py Coverage Results" MODIFIED="1543395372447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Interface_Test_crm$BaseFunc.coverage" NAME="BaseFunc Coverage Results" MODIFIED="1543473762788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
+    <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testOutsideJob_py.coverage" NAME="py.test in testOutsideJob.py Coverage Results" MODIFIED="1543474325126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testWholeNetworkJob_py.coverage" NAME="py.test in testWholeNetworkJob.py Coverage Results" MODIFIED="1543473970573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1542795633782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/user" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseDB.coverage" NAME="BaseDB Coverage Results" MODIFIED="1542708287334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseData.coverage" NAME="BaseData Coverage Results" MODIFIED="1542779503577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
@@ -44,8 +50,8 @@
       <file leaf-file-name="testWholeNetworkJob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="798">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -53,11 +59,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testWholeHotJob.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testWholeHotJob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testCase/app/testWholeHotJob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="152">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseLog.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/BaseLog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseFunc.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Base/BaseFunc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -66,8 +92,8 @@
       <file leaf-file-name="testOutsideJob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testCase/app/testOutsideJob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="76">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -80,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1026">
               <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interfaceURL.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testData/interfaceURL.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -120,19 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/result/20181121171438/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121171641/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121171834/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121172150/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121172752/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121173005/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121174406/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121175800/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121181744/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121182409/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121182748/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121183204/output.log" />
-        <option value="$PROJECT_DIR$/result/20181121183541/output.log" />
         <option value="$PROJECT_DIR$/result/20181121183648/output.log" />
         <option value="$PROJECT_DIR$/result/20181121184505/output.log" />
         <option value="$PROJECT_DIR$/result/20181122085924/output.log" />
@@ -168,8 +171,21 @@
         <option value="$PROJECT_DIR$/result/20181128160324/output.log" />
         <option value="$PROJECT_DIR$/testCase/user/testLogin.py" />
         <option value="$PROJECT_DIR$/caselist.txt" />
-        <option value="$PROJECT_DIR$/testCase/app/testOutsideJob.py" />
+        <option value="$PROJECT_DIR$/result/20181129132910/output.log" />
+        <option value="$PROJECT_DIR$/result/20181129133208/output.log" />
+        <option value="$PROJECT_DIR$/result/20181129133540/output.log" />
+        <option value="$PROJECT_DIR$/Base/BaseLog.py" />
+        <option value="$PROJECT_DIR$/result/20181128165614/output.log" />
+        <option value="$PROJECT_DIR$/result/201811-29-14-23-22/output.log" />
         <option value="$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py" />
+        <option value="$PROJECT_DIR$/result/201811-29-14-29-47/output.log" />
+        <option value="$PROJECT_DIR$/result/201811-29-14-32-45/output.log" />
+        <option value="$PROJECT_DIR$/result/201811-29-14-37-19/output.log" />
+        <option value="$PROJECT_DIR$/Base/BaseFunc.py" />
+        <option value="$PROJECT_DIR$/result/201811-29-14-46-12/output.log" />
+        <option value="$PROJECT_DIR$/result/201811-29-14-47-45/output.log" />
+        <option value="$PROJECT_DIR$/testCase/app/testOutsideJob.py" />
+        <option value="$PROJECT_DIR$/result/201811-29-14-49-06/output.log" />
         <option value="$PROJECT_DIR$/testCase/app/testWholeHotJob.py" />
       </list>
     </option>
@@ -211,7 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,27 +320,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="20181128165614" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interface_Test_crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interface_Test_crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
+              <option name="myItemId" value="201811-29-14-52-06" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,86 +340,7 @@
       <recent name="E:\interfaceTest_Ysl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in testWholeNetworkJob.py">
-    <configuration default="false" name="BaseData" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interfaceTest_Ysl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base/BaseData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testLogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/user" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interfaceTest_Ysl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCase/user/testLogin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BaseHttp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interfaceTest_Ysl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base/BaseHttp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in testWholeNetworkJob.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interfaceTest_Ysl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in testOutsideJob.py">
     <configuration default="false" name="py.test in testOutsideJob.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -651,20 +574,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.BaseData" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testLogin" />
-      <item index="2" class="java.lang.String" itemvalue="Python.BaseHttp" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in testWholeNetworkJob.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in testWholeNetworkJob.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testLogin" />
-        <item index="3" class="java.lang.String" itemvalue="Python.BaseHttp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BaseData" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
       </list>
     </recent_temporary>
   </component>
@@ -707,38 +622,45 @@
       <option name="project" value="LOCAL" />
       <updated>1543393092621</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="app-接口测试">
+      <created>1543395990440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543395990440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_testOutsideJob_py - 2018.11.28 at 16h 02m 51s.xml">
+    <history-entry file="py_test_in_testOutsideJob_py - 2018.11.29 at 14h 50m 16s.xml">
       <configuration name="py.test in testOutsideJob.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 15h 32m 27s.xml">
+    <history-entry file="py_test_in_testOutsideJob_py - 2018.11.29 at 14h 52m 07s.xml">
+      <configuration name="py.test in testOutsideJob.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testWholeHotJob_py - 2018.11.29 at 14h 47m 46s.xml">
+      <configuration name="py.test in testWholeHotJob.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testWholeHotJob_py - 2018.11.29 at 14h 49m 06s.xml">
+      <configuration name="py.test in testWholeHotJob.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.29 at 14h 23m 23s.xml">
       <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 15h 36m 31s.xml">
+    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.29 at 14h 28m 23s.xml">
       <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 15h 37m 57s.xml">
+    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.29 at 14h 29m 47s.xml">
       <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 15h 40m 25s.xml">
+    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.29 at 14h 32m 45s.xml">
       <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 15h 46m 45s.xml">
+    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.29 at 14h 37m 20s.xml">
       <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 15h 53m 52s.xml">
-      <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 15h 54m 51s.xml">
-      <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 16h 03m 24s.xml">
-      <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.28 at 16h 56m 14s.xml">
+    <history-entry file="py_test_in_testWholeNetworkJob_py - 2018.11.29 at 14h 46m 12s.xml">
       <configuration name="py.test in testWholeNetworkJob.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -746,17 +668,17 @@
     <frame x="39" y="59" width="1830" height="847" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13672316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13841808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15826331" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30514097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30392158" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21288516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44117647" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="69" y="355" width="1770" height="255" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -819,62 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/result/20181121181744/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181121183541/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181121183648/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181121184505/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181122085924/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181122090408/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181122091042/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181122092857/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python3/lib/site-packages/locust/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Locust_Framework/pressure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/interfaceTest_Ysl.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/AllTestReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="87" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -891,13 +757,6 @@
     <entry file="file://$PROJECT_DIR$/result/20181128145553/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181128150333/output.log" />
     <entry file="file://$PROJECT_DIR$/result/20181128150552/output.log" />
-    <entry file="file://$PROJECT_DIR$/Base/BaseLog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python3/lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1020,20 +879,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/app/testOutsideJob.py">
+    <entry file="file://$PROJECT_DIR$/result/20181129132910/output.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="76">
+          <caret line="4" column="150" selection-start-line="4" selection-start-column="150" selection-end-line="4" selection-end-column="150" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/20181129133540/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/20181129133208/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/20181128165614/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseLog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-23-22/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="266" selection-start-line="12" selection-start-column="266" selection-end-line="12" selection-end-column="266" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-29-47/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-37-19/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-32-45/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-46-12/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-49-06/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-50-15/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-47-45/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py">
+    <entry file="file://$PROJECT_DIR$/result/201811-29-14-52-06/output.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/app/testOutsideJob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -1042,8 +1013,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testCase/app/testWholeHotJob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="152">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
           <folding />
         </state>
       </provider>

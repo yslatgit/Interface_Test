@@ -20,7 +20,7 @@ class WholeHotJob(unittest.TestCase):
         self.case_name = str(case_name)
         self.method = str(method)
         self.jobFunc = str(jobFunc)
-        self.cityCode = str(cityCode)
+        self.cityCode = str(cityCode).split(".")[0]
         self.version = str(version)
         self.msg = str(msg)
 

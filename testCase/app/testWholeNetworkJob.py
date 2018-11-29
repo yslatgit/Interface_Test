@@ -2,6 +2,7 @@ import os
 import unittest
 import paramunittest
 import json
+from Base.BaseFunc import Func
 from Base.BaseLog import MyLog
 from Base.BaseHttp import Http
 from Base.BaseData import GetUrl,GetData
@@ -23,12 +24,12 @@ class WholeNetworkJob(unittest.TestCase):
         self.text = str(text)
         self.benefitTag = str(benefitTag)
         self.education = str(education).split(".")[0]
-        self.salaryRabge = json.loads(salaryRabge)
+        self.salaryRabge = Func(salaryRabge).str_to_json()
         self.cityCode = str(cityCode).split(".")[0]
         self.jobFunc = str(jobFunc)
         self.sortType = str(sortType)
         self.page = int(page)
-        self.size = int(size)
+        self.size = Func(size).str_to_int()
         self.version = str(version)
         self.msg = str(msg)
 
@@ -52,13 +53,11 @@ class WholeNetworkJob(unittest.TestCase):
         headers = {"cookie":""}
         self.req.set_headers(headers)
         #设置params
-        # param_1 = {"params":
-        #              {"text":self.text,"benefitTag":self.benefitTag,"education":self.education,"salaryRabge": self.salaryRabge,
-        #                    "cityCode":self.cityCode,"jobFunc":self.jobFunc,"sortType":self.sortType,"page":self.page,"size": self.size
-        #               },
-        #          "version":self.version}
+        param_1 = {'params':'{"text":"%s","benefitTag":"%s","education":"%s","salaryRabge":%s,"cityCode":"%s","jobFunc":"%s","sortType":"%s","page":%d,"size":%d}'
+                    %(self.text,self.benefitTag,self.education,self.salaryRabge,self.cityCode,self.jobFunc,self.sortType,self.page,self.size),
+                 "version":self.version}
         param_2 = {'params':'{"cityCode":"%s","page":%d,"size":%d }'%(self.cityCode,self.page,self.size),'version':self.version }
-        self.req.set_params(param_2)
+        self.req.set_params(param_1)
         #打印发送请求的方法
         self.logger.info("请求方法为 " + self.method)
         #请求

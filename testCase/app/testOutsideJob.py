@@ -20,7 +20,7 @@ class OutsideJob(unittest.TestCase):
         self.case_name = str(case_name)
         self.method = str(method)
         self.appkey = str(appkey)
-        self.jobID = str(jobID)
+        self.jobID = str(jobID).split(".")[0]
         self.version = str(version)
         self.msg = str(msg)
 
