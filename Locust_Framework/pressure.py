@@ -28,3 +28,5 @@ class MobileUserLocust(HttpLocust):
 
 #task(c参数)：模拟时此用例所占的比例
 #host:locust服务在那台机器上
+#     启动命令
+# locust -f  pressure.py路径
