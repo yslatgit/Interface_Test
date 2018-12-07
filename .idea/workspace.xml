@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea41a93e-b36c-4321-bbb0-428298c29749" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseLog.py" afterPath="$PROJECT_DIR$/Base/BaseLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caselist.txt" afterPath="$PROJECT_DIR$/caselist.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yaml" afterPath="$PROJECT_DIR$/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readConfig.py" afterPath="$PROJECT_DIR$/readConfig.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result/AllTestReport.html" afterPath="$PROJECT_DIR$/result/AllTestReport.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <ignored path="interfaceTest_Ysl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +28,7 @@
     <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testWholeNetworkJob_py.coverage" NAME="py.test in testWholeNetworkJob.py Coverage Results" MODIFIED="1543473970573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1542795633782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/user" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseDB.coverage" NAME="BaseDB Coverage Results" MODIFIED="1542708287334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
+    <SUITE FILE_PATH="coverage/Interface_Test_crm$test.coverage" NAME="test Coverage Results" MODIFIED="1544175623327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$BaseData.coverage" NAME="BaseData Coverage Results" MODIFIED="1542779503577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/Interface_Test_crm$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1543388489223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/user" />
     <SUITE FILE_PATH="coverage/Interface_Test_crm$BaseData.coverage" NAME="BaseData Coverage Results" MODIFIED="1543383397151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
@@ -80,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -95,12 +92,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
               <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-              <folding />
+              <folding>
+                <marker date="1544153169284" expanded="true" signature="548:583" ph="handler_co...: &lt;1 item&gt;" />
+                <marker date="1544153169284" expanded="true" signature="578:583" ph="False" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runAllTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runAllTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runAllTest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1102">
@@ -127,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/result/20181121184505/output.log" />
         <option value="$PROJECT_DIR$/result/20181122085924/output.log" />
         <option value="$PROJECT_DIR$/result/20181122090408/output.log" />
         <option value="$PROJECT_DIR$/result/20181122091042/output.log" />
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/Base/BaseLog.py" />
         <option value="$PROJECT_DIR$/caselist.txt" />
         <option value="$PROJECT_DIR$/config.yaml" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -188,8 +188,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="46" />
+    <option name="x" value="322" />
+    <option name="y" value="97" />
     <option name="width" value="1516" />
     <option name="height" value="847" />
   </component>
@@ -253,7 +253,7 @@
       <recent name="E:\interfaceTest_Ysl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runAllTest">
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="py.test in testOutsideJob.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,6 +329,24 @@
       <module name="interfaceTest_Ysl" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runAllTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interfaceTest_Ysl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -541,18 +559,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
       <item index="1" class="java.lang.String" itemvalue="Python.BaseLog" />
       <item index="2" class="java.lang.String" itemvalue="Python.readConfig" />
       <item index="3" class="java.lang.String" itemvalue="Python.runAllTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.runAllTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BaseLog" />
-        <item index="2" class="java.lang.String" itemvalue="Python.readConfig" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.runAllTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BaseLog" />
+        <item index="3" class="java.lang.String" itemvalue="Python.readConfig" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
       </list>
     </recent_temporary>
   </component>
@@ -616,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543907503239</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="logger-增加输出到console开关">
+      <created>1544153293483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544153293483</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -661,8 +688,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="46" width="1516" height="847" extended-state="0" />
-    <editor active="true" />
+    <frame x="322" y="97" width="1516" height="847" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2967033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -675,7 +702,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30392158" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35154063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="69" y="355" width="1770" height="255" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35154063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="69" y="355" width="1770" height="255" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -720,7 +747,8 @@
     <MESSAGE value="app-接口测试" />
     <MESSAGE value="app-接口测试-1" />
     <MESSAGE value="locust-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="locust-2" />
+    <MESSAGE value="logger-增加输出到console开关" />
+    <option name="LAST_COMMIT_MESSAGE" value="logger-增加输出到console开关" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,6 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -877,7 +906,7 @@
         <state relative-caret-position="323">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -903,7 +932,7 @@
         <state relative-caret-position="396">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,7 +942,7 @@
         <state relative-caret-position="19">
           <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -944,19 +973,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding />
+          <folding>
+            <marker date="1544153169284" expanded="true" signature="548:583" ph="handler_co...: &lt;1 item&gt;" />
+            <marker date="1544153169284" expanded="true" signature="578:583" ph="False" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,6 +1023,14 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
