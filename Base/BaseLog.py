@@ -6,6 +6,10 @@ import threading
 
 # PATH = os.path.abspath(os.path.join(os.path.dirname("_file_"),".."))
 # print(PATH)
+
+r = readConfig.ReadConfig("handler_console_status")
+handler_console_status = r.readconfig()[0]
+
 PATH = lambda  p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p))
 
@@ -26,9 +30,13 @@ class Log:
         self.logger.setLevel(logging.INFO)
 
         handler = logging.FileHandler(os.path.join(logPath,"output.log"))
+        handler_console = logging.StreamHandler()
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
+        handler_console.setFormatter(formatter)
         self.logger.addHandler(handler)
+        if handler_console_status == True:
+            self.logger.addHandler(handler_console)
 
     def get_logger(self):
         return self.logger

@@ -22,5 +22,5 @@ class ReadConfig:
 # print(readconfig("EMAIL"))
 if __name__ == '__main__':
     
-    r = ReadConfig("EMAIL")
+    r = ReadConfig("handler_console_status")
     print(r.readconfig())

@@ -23,3 +23,6 @@ DATABASE:
     port : 3306
     database : test
 
+handler_console_status:
+    - False
+
