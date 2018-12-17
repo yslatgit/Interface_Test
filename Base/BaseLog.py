@@ -22,7 +22,7 @@ class Log:
         resultPath = os.path.join(PATH,"result")
         if not os.path.exists(resultPath):
             os.mkdir(resultPath)
-        logPath = os.path.join(resultPath,str(datetime.now().strftime("%Y%m-%d-%H-%M-%S")))
+        logPath = os.path.join(resultPath,str(datetime.now().strftime("%Y$$%m-%d$$%H-%M-%S")))
         if not os.path.exists(logPath):
             os.mkdir(logPath)
 

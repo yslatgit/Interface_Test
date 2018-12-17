@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from Base.BaseLog import MyLog
 from Base.BaseHttp import Http
 from Base.BaseData import GetUrl,GetData
+from Base.BaseParams import Params
 
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p))
@@ -48,6 +49,8 @@ class Login(unittest.TestCase):
         self.req.set_headers(header)
         #设置params
         param = {"account":self.account,"password":self.password,"action":self.action}
+        # param = self.params(param)
+        param = Params.auto_params(param)
         self.req.set_params(param)
         #打印发送请求的方法
         self.logger.info("请求方法为 " + self.method)
@@ -59,6 +62,15 @@ class Login(unittest.TestCase):
         self.req = None
         self.logger.info("断言结果是 " + "%s" %self.checkResult())
         print("测试结束，结果已输出到Log")
+
+    # def params(self,params):
+    #     for key in list(params.keys()):
+    #         print(key)
+    #         if not params.get(key):
+    #             del params[key]
+    #     return params
+
+
 
     def checkResult(self):
         try:
