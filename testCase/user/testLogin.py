@@ -50,7 +50,10 @@ class Login(unittest.TestCase):
         #设置params
         param = {"account":self.account,"password":self.password,"action":self.action}
         # param = self.params(param)
+        # param = Params.auto_params(param)
         param = Params.auto_params(param)
+        # print ((list(param)[1][0]))
+        # param = list(param)[0] % list(param)[1]
         self.req.set_params(param)
         #打印发送请求的方法
         self.logger.info("请求方法为 " + self.method)

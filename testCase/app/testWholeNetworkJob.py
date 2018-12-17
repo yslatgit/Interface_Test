@@ -6,6 +6,7 @@ from Base.BaseFunc import Func
 from Base.BaseLog import MyLog
 from Base.BaseHttp import Http
 from Base.BaseData import GetUrl,GetData
+from Base.BaseParams import Params
 
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p))
@@ -52,12 +53,32 @@ class WholeNetworkJob(unittest.TestCase):
         # #设置headers
         headers = {"cookie":""}
         self.req.set_headers(headers)
-        #设置params
+        #设置params---手动拼接
         param_1 = {'params':'{"text":"%s","benefitTag":"%s","education":"%s","salaryRabge":%s,"cityCode":"%s","jobFunc":"%s","sortType":"%s","page":%d,"size":%d}'
                     %(self.text,self.benefitTag,self.education,self.salaryRabge,self.cityCode,self.jobFunc,self.sortType,self.page,self.size),
                  "version":self.version}
         param_2 = {'params':'{"cityCode":"%s","page":%d,"size":%d }'%(self.cityCode,self.page,self.size),'version':self.version }
-        self.req.set_params(param_1)
+        params = {
+
+            "cityCode": self.cityCode,
+            "size": self.size,
+            "text": self.text,
+            "benefitTag": self.benefitTag,
+            "education": self.education,
+            "salaryRabge": self.salaryRabge,
+            "jobFunc": self.jobFunc,
+            "sortType": self.sortType,
+            "page": self.page
+        }
+        params = Params.auto_params(params)
+        params = json.dumps(params)
+        param2 = {
+            'params': params,
+            'version':self.version
+        }
+        print("===============")
+        print(param2)
+        self.req.set_params(param2)
         #打印发送请求的方法
         self.logger.info("请求方法为 " + self.method)
         #请求

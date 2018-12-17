@@ -4,7 +4,8 @@ import paramunittest
 from Base.BaseLog import MyLog
 from Base.BaseHttp import Http
 from Base.BaseData import GetUrl,GetData
-
+from Base.BaseParams import Params
+import json
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p))
 
@@ -43,9 +44,19 @@ class OutsideJob(unittest.TestCase):
         #设置header
         header = {"cookie":""}
         self.req.set_headers(header)
-        #设置params
-        param = {'params':'{"appkey":"%s","jobID":"%s"}'%(self.appkey,self.jobID),'version':self.version}
-        self.req.set_params(param)
+        # #设置params
+        # param = {'params':'{"appkey":"%s","jobID":"%s"}'%(self.appkey,self.jobID),'version':self.version}
+        param = {
+            "appkey":self.appkey,
+            "jobID":self.jobID
+        }
+        param = Params.auto_params(param)
+        param = json.dumps(param)
+        param_1 = {
+            'params':param,
+            'version':self.version
+        }
+        self.req.set_params(param_1)
         #打印发送请求的方法
         self.logger.info("请求方法为 " + self.method)
         #请求
