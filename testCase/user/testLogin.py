@@ -58,7 +58,7 @@ class Login(unittest.TestCase):
         #打印发送请求的方法
         self.logger.info("请求方法为 " + self.method)
         #请求
-        self.result = self.req.get().text
+        self.result = self.request_method().text
         #print(self.req.get().url)
 
     def tearDown(self):
@@ -73,7 +73,11 @@ class Login(unittest.TestCase):
     #             del params[key]
     #     return params
 
-
+    def request_method(self):
+        if self.method == 'get':
+            return self.req.get()
+        elif self.method == 'post':
+            return self.req.post()
 
     def checkResult(self):
         try:

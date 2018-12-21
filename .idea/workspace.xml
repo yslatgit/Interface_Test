@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea41a93e-b36c-4321-bbb0-428298c29749" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testData/userCase.xlsx" afterPath="$PROJECT_DIR$/testData/userCase.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseParams.py" afterPath="$PROJECT_DIR$/Base/BaseParams.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/app/testOutsideJob.py" afterPath="$PROJECT_DIR$/testCase/app/testOutsideJob.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/app/testWholeHotJob.py" afterPath="$PROJECT_DIR$/testCase/app/testWholeHotJob.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py" afterPath="$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseHttp.py" afterPath="$PROJECT_DIR$/Base/BaseHttp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/user/testLogin.py" afterPath="$PROJECT_DIR$/testCase/user/testLogin.py" />
     </list>
     <ignored path="interfaceTest_Ysl.iws" />
@@ -22,7 +20,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Interface_Test_crm$BaseHttp.coverage" NAME="BaseHttp Coverage Results" MODIFIED="1543385957992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
-    <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testLogin_py.coverage" NAME="py.test in testLogin.py Coverage Results" MODIFIED="1545043025876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testLogin_py.coverage" NAME="py.test in testLogin.py Coverage Results" MODIFIED="1545377716147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/interfaceTest_Ysl$runAllTest.coverage" NAME="runAllTest Coverage Results" MODIFIED="1542854037152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Interface_Test_crm$py_test_in_testWholeHotJob_py.coverage" NAME="py.test in testWholeHotJob.py Coverage Results" MODIFIED="1545043642842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Interface_Test_crm$BaseParams.coverage" NAME="BaseParams Coverage Results" MODIFIED="1545026259718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
@@ -65,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testOutsideJob.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testOutsideJob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testCase/app/testOutsideJob.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="855">
@@ -80,7 +78,7 @@
       <file leaf-file-name="BaseLog.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base/BaseLog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
+            <state relative-caret-position="380">
               <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -92,8 +90,8 @@
       <file leaf-file-name="testLogin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            <state relative-caret-position="199">
+              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -101,24 +99,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testResume.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/list/testResume.py">
+      <file leaf-file-name="BaseHttp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Base/BaseHttp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-537">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="513">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testWholeNetworkJob.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +112,18 @@
       <file leaf-file-name="BaseParams.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base/BaseParams.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testResume.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/list/testResume.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-565">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -148,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/result/20181128142955/output.log" />
-        <option value="$PROJECT_DIR$/result/20181128143310/output.log" />
         <option value="$PROJECT_DIR$/result/20181128143841/output.log" />
         <option value="$PROJECT_DIR$/result/20181128144615/output.log" />
         <option value="$PROJECT_DIR$/result/20181128145553/output.log" />
@@ -160,7 +154,6 @@
         <option value="$PROJECT_DIR$/result/20181128151941/output.log" />
         <option value="$PROJECT_DIR$/result/20181128152452/output.log" />
         <option value="$PROJECT_DIR$/result/20181128152951/output.log" />
-        <option value="$PROJECT_DIR$/Base/BaseHttp.py" />
         <option value="$PROJECT_DIR$/result/20181128155352/output.log" />
         <option value="$PROJECT_DIR$/result/20181128155451/output.log" />
         <option value="$PROJECT_DIR$/result/20181128160251/output.log" />
@@ -193,12 +186,15 @@
         <option value="$PROJECT_DIR$/result/201811-29-14-52-06/output.log" />
         <option value="$PROJECT_DIR$/result/2018$$12-17$$14-39-54/output.log" />
         <option value="$PROJECT_DIR$/result/2018$$12-17$$15-01-06/output.log" />
-        <option value="$PROJECT_DIR$/testCase/user/testLogin.py" />
         <option value="$PROJECT_DIR$/result/2018$$12-17$$18-37-07/output.log" />
         <option value="$PROJECT_DIR$/Base/BaseParams.py" />
         <option value="$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py" />
         <option value="$PROJECT_DIR$/testCase/app/testWholeHotJob.py" />
         <option value="$PROJECT_DIR$/testCase/app/testOutsideJob.py" />
+        <option value="$PROJECT_DIR$/testCase/user/testLogin.py" />
+        <option value="$PROJECT_DIR$/result/2018$$12-21$$15-33-36/output.log" />
+        <option value="$PROJECT_DIR$/result/2018$$12-21$$15-34-19/output.log" />
+        <option value="$PROJECT_DIR$/Base/BaseHttp.py" />
       </list>
     </option>
   </component>
@@ -209,10 +205,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="73" />
-    <option name="width" value="1694" />
-    <option name="height" value="870" />
+    <option name="width" value="1113" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -258,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,12 +273,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\node\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/interfaceTest" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -293,7 +287,7 @@
       <recent name="E:\interfaceTest_Ysl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in testOutsideJob.py">
+  <component name="RunManager" selected="Python tests.py.test in testLogin.py">
     <configuration default="false" name="py.test in testLogin.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -636,10 +630,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in testWholeHotJob.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in testWholeNetworkJob.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in testLogin.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in testLogin.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in testOutsideJob.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in testWholeHotJob.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in testWholeNetworkJob.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in WholeNetworkJob and testwholenetworkjob" />
       </list>
     </recent_temporary>
@@ -732,19 +726,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545017673442</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="去除参数为空的参数-2">
+      <created>1545044010520</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1545044010520</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_WholeNetworkJob_and_testwholenetworkjob - 2018.12.17 at 18h 03m 57s.xml">
-      <configuration name="py.test in WholeNetworkJob and testwholenetworkjob" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_WholeNetworkJob_and_testwholenetworkjob - 2018.12.17 at 18h 04m 32s.xml">
-      <configuration name="py.test in WholeNetworkJob and testwholenetworkjob" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_WholeNetworkJob_and_testwholenetworkjob - 2018.12.17 at 18h 11m 57s.xml">
-      <configuration name="py.test in WholeNetworkJob and testwholenetworkjob" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_WholeNetworkJob_and_testwholenetworkjob - 2018.12.17 at 18h 23m 41s.xml">
       <configuration name="py.test in WholeNetworkJob and testwholenetworkjob" configurationId="tests" />
     </history-entry>
@@ -755,6 +747,15 @@
       <configuration name="py.test in testLogin.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_testLogin_py - 2018.12.17 at 18h 37m 08s.xml">
+      <configuration name="py.test in testLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testLogin_py - 2018.12.21 at 15h 33m 37s.xml">
+      <configuration name="py.test in testLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testLogin_py - 2018.12.21 at 15h 34m 19s.xml">
+      <configuration name="py.test in testLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testLogin_py - 2018.12.21 at 15h 35m 18s.xml">
       <configuration name="py.test in testLogin.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_testOutsideJob_py - 2018.12.17 at 18h 51m 22s.xml">
@@ -777,10 +778,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="73" width="1694" height="870" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1113" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25458997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25071225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -790,7 +791,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30359712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50339216" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="69" y="355" width="1770" height="255" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50275636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="69" y="355" width="1770" height="255" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,7 +841,8 @@
     <MESSAGE value="练习" />
     <MESSAGE value="删除练习文件" />
     <MESSAGE value="去除参数为空的参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除参数为空的参数" />
+    <MESSAGE value="去除参数为空的参数-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除参数为空的参数-2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -859,14 +861,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/result/20181128155451/output.log" />
-    <entry file="file://$PROJECT_DIR$/result/20181128160251/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/result/20181128160324/output.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -936,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,9 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,113 +944,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/201812-17-10-21-30/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/201812-17-10-24-42/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-645">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/201812-17-10-28-51/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/201812-17-10-34-36/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/201812-17-10-31-15/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-642">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$10-48-18/report.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$10-48-18/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$11-03-49/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$11-14-18/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$14-39-54/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$15-01-06/output.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/201812-17-10-21-30/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/201812-17-10-24-42/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/201812-17-10-28-51/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/201812-17-10-34-36/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/201812-17-10-31-15/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$10-48-18/report.txt" />
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$10-48-18/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$11-03-49/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$11-14-18/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$14-39-54/output.log" />
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$15-01-06/output.log" />
     <entry file="file://$PROJECT_DIR$/result/201811-29-14-52-06/output.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-627">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseLog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,15 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseHttp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,31 +976,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$18-37-07/output.log">
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-17$$18-37-07/output.log" />
+    <entry file="file://$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="670">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/list/testResume.py">
+    <entry file="file://$PROJECT_DIR$/Base/BaseLog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseParams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="380">
+          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,26 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/app/testWholeNetworkJob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testCase/app/testOutsideJob.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -1149,6 +1017,56 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/list/testResume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseParams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-21$$15-33-36/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/2018$$12-21$$15-34-19/output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

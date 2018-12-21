@@ -64,6 +64,7 @@ class Http:
 
     def post(self):
         try:
+            # print('post')
             response = requests.post(self.url,headers=self.headers,params=self.params,data=self.data,
                                      timeout=float(timeout))
             return response
