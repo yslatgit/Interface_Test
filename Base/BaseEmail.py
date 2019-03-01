@@ -47,11 +47,12 @@ class Email:
         self.msg['subject'] = self.subject
 
     def config_content_xlsx(self):
+        #创建消息对象
         self.msg.attach(MIMEText(title,'plain','utf-8'))
         #测试发送邮件的数据
         # xlspart = MIMEApplication(open(PATH("../report.xls"),'rb').read())
         xlspart = MIMEApplication(open(PATH("../result/AllTestReport.html"),'rb').read())
-        xlspart.add_header('Content-Disposition','attachment',filename='report.xls')
+        # xlspart.add_header('Content-Disposition','attachment',filename='report.xls')
         self.msg.attach(xlspart)
 
     def config_content_image(self):

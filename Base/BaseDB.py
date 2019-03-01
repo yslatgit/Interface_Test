@@ -52,5 +52,5 @@ class MyDB:
 if __name__ == '__main__':
     """参照菜鸟教程数据库链接"""
     sql = 'select * from roles WHERE id = 1'
-    r = list(MyDB().executeSQL(sql))
+    r = MyDB().executeSQL(sql)
     print(r[0][0])
