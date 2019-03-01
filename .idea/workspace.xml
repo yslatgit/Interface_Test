@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea41a93e-b36c-4321-bbb0-428298c29749" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/201811-29-14-52-06/output.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/20181122092857/output.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/20181122095450/output.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/20181122103016/output.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result/20181122103357/output.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseEmail.py" afterPath="$PROJECT_DIR$/Base/BaseEmail.py" />
     </list>
@@ -101,8 +96,8 @@
       <file leaf-file-name="BaseEmail.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
               </folding>
@@ -752,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551408743052</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="自动化测试邮件模块调整">
+      <created>1551411278618</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551411278618</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1115,8 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
           </folding>

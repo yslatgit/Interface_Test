@@ -68,6 +68,7 @@ class Email:
         self.msg.attach(textpart)
 
     def config_content_html(self):
+        """未使用"""
         msg = open(PATH("../result/AllTestReport.html"),'rb').read()
         self.msg = MIMEText(msg,'html','utf-8')
 
