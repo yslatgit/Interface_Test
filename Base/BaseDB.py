@@ -33,6 +33,24 @@ class MyDB:
         except ConnectionError as ex:
             self.logger.error(str(ex))
 
-    # def get_all(self):
+    def closeDB(self):
+        self.db.close()
+        print("Database closed!")
+
+    def executeSQL(self,sql):
+        self.connectDB()
+        try:
+            #执行SQL
+            self.cursor.execute(sql)
+            results = self.cursor.fetchall()
+            # results = self.cursor.fetchone()
+            return results
+        except:
+            print('error:unable to fetch data!')
+
+
 if __name__ == '__main__':
-    MyDB().connectDB()
+    """参照菜鸟教程数据库链接"""
+    sql = 'select * from roles WHERE id = 1'
+    r = list(MyDB().executeSQL(sql))
+    print(r[0][0])

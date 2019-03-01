@@ -44,8 +44,9 @@ if __name__ == '__main__':
     path1 = PATH("../testData/interfaceURL.xml")
     print(GetUrl(path1,"wholehotJob").get_url())
 
-    # path2 = PATH("../testData/userCase.xlsx")
-    # r = GetData(path2,'login_crm').get_data()
-    # print(str(r[0][3]).split(".")[0])
+    path2 = PATH("../testData/userCase.xlsx")
+    r = GetData(path2,'login_crm').get_data()
+    print(r)
+    print(str(r[0][3]).split(".")[0])
 
 
