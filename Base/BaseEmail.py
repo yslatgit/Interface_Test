@@ -47,13 +47,15 @@ class Email:
         self.msg['subject'] = self.subject
 
     def config_content_xlsx(self):
-        #创建消息对象
+        #创建消息对象1.文本正文
         self.msg.attach(MIMEText(title,'plain','utf-8'))
-        #测试发送邮件的数据
+        #2.html正文
+        self.msg.attach(MIMEText(open(PATH("../result/AllTestReport.html"),'rb').read(),'html','utf-8'))
+        #测试发送邮件的数据---再梳理
         # xlspart = MIMEApplication(open(PATH("../report.xls"),'rb').read())
-        xlspart = MIMEApplication(open(PATH("../result/AllTestReport.html"),'rb').read())
-        # xlspart.add_header('Content-Disposition','attachment',filename='report.xls')
-        self.msg.attach(xlspart)
+        # xlspart = MIMEApplication(open(PATH("../result/AllTestReport.html"),'rb').read())
+        # # xlspart.add_header('Content-Disposition','attachment',filename='report.xls')
+        # self.msg.attach(xlspart)
 
     def config_content_image(self):
         imagepart = MIMEApplication(open(PATH("../report.image"),'rb').read())
@@ -64,6 +66,10 @@ class Email:
         textpart = MIMEApplication(open(PATH("../report.text"),'rb').read())
         textpart.add_header('Content-Disposition','attachment',filename='re.text')
         self.msg.attach(textpart)
+
+    def config_content_html(self):
+        msg = open(PATH("../result/AllTestReport.html"),'rb').read()
+        self.msg = MIMEText(msg,'html','utf-8')
 
     def send_email(self):
         self.config_header()
